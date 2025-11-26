@@ -23,21 +23,21 @@ body{
     width: 80px;
     height: 240px;
     top: 120px;
-    left: -50px;
+    left: -20px;
     clip-path: inset(0 60% 0 0);
 }
 .frame2{
     width: 160px;
     height: 350px;
     left: 60px;
-    top: 60px;
+    top: -40px;
     clip-path: inset(0 30% 0 0);
 }
 .frame3{
     width: 120px;
-    height: 330px;
-    right: -60px;
-    top: 120px;
+    height: 300px;
+    right: 60px;
+    top: 100px;
     clip-path: inset(0 0 0 40%);
 }
 .frame4{
@@ -50,8 +50,8 @@ body{
 }
 .vertical-text{
      position: absolute;
-     right: -40px;
-     top: 80px;
+     right: 20px;
+     top: 60px;
      writing-mode: vertical-rl;
      color: white;
      font-size: 20px;
