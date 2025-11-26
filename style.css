@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 350px;
+    height: 600px;
+}
+.frame{
+    position: absolute;
+    background-image: url(https://www.piclumen.com/wp-content/uploads/2024/10/piclumen-upscale-after.webp);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.frame1{
+    width: 80px;
+    height: 240px;
+    top: 120px;
+    left: -50px;
+    clip-path: inset(0 60% 0 0);
+}
+.frame2{
+    width: 160px;
+    height: 350px;
+    left: 60px;
+    top: 60px;
+    clip-path: inset(0 30% 0 0);
+}
+.frame3{
+    width: 120px;
+    height: 330px;
+    right: -60px;
+    top: 120px;
+    clip-path: inset(0 0 0 40%);
+}
+.frame4{
+    width: 180px;
+    height: 180px;
+    left: 20px;
+    top: 350px;
+    border-radius: 50%;
+    clip-path: inset(20% 20% 20% 20%)
+}
+.vertical-text{
+     position: absolute;
+     right: -40px;
+     top: 80px;
+     writing-mode: vertical-rl;
+     color: white;
+     font-size: 20px;
+     letter-spacing: 3px;
+}
