@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice positionnement CSS</title>
+    <link rel="stylesheet" href="exo.css">
+</head>
+<body>
+    <header class="menu-fixe">
+        Bloc Fixe - Ce menu reste oujours visible meme en scrollant.
+    </header>
+    <h1 class="title-sticky">
+        Bloc Sticky - Ce titre colle en haut et quand tu arrives a son niveau.
+    </h1>
+    <div class="box static-box">
+         Cebloc STATIC suit le flux normal de la page.
+         Il ne bouge pas et se place naturellement parmis les autres elements.
+    </div>
+    <div class="box relative-box">
+        Ce bloc RELATIVE garde sa place d'origine mais peut etre deplace 
+        grace a top,left,right ou bottom.
+    </div>
+    <div class="parent-box">
+        Parent 
+        <div class="absolute-box">
+            Ce bloc ABSOLUTE se place exactement ou on lui dit,
+            en se positionnant dans les limites de son parent.
+        </div>
+    </div>
+    <p style="margin-bottom: 500px;"></p>
+</body>
+</html>

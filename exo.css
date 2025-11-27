@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;
+    padding-top: 60px;
+    background-image: url(https://www.fond-ecran-hd.net/Public/uploads/2024-07-25/plage3840x21604kwallpaperoceanpalmier.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    background: #e3e3e3;
+    border: 1px solid #aaa;
+}
+.static-box{
+    position: static;
+    background: #ffd8a8;
+}
+.relative-box{
+    position: relative;
+    top: 10px;
+    left: 300px;
+    background: #80a5b372;
+}
+.parent-box{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: rgba(255, 165, 0, 0,5);
+    margin: 20px;
+    border: 2px solid #181818;
+}
+.absolute-box{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    background: #8d7979;
+    padding: 10px;
+}
+.menu-fixe{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.title-sticky{
+    position: sticky;
+    top: 50px;
+    background: #76d4fd;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #2a1b1b;
+}
